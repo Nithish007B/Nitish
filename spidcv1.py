@@ -6,10 +6,10 @@ import time
 import math
 
 #Classifier File
-carCascade = cv2.CascadeClassifier("D:/A1.TiHAN/A1.CVSD/vech.xml")
+carCascade = cv2.CascadeClassifier("D:/A2.TiHAN)/A1.CVDLSE/file.xml")
 
 #Video file capture
-video = cv2.VideoCapture("D:/A1.TiHAN/A1.CVSD/cars1.mp4")
+video = cv2.VideoCapture("D:/A2.TiHAN)/A1.CVDLSE/cars1.mp4")
 
 # Constant Declaration
 WIDTH =1280
@@ -151,3 +151,4 @@ def trackMultipleObjects():
 
 if __name__ == '__main__':
     trackMultipleObjects()
+    
